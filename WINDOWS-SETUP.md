@@ -26,3 +26,12 @@
 - 日付変更時の予定更新、接続切れ時の古い予定消去、通知API非対応時の例外を修正。
 - JavaScript構文チェック済み。
 - Entraアプリ登録・同意・Outlook実データ取得・Windows実機確認は未完了。
+
+## 接続確認結果（2026-10-16 16:39 JST）
+- Entra登録完了。クライアントID: 5b15ab59-0ed0-4dbe-bcee-c7e41eb68fa1
+- テナント: 2b206ed9-5389-464c-b575-b140367c42e0（2055.jpのみ）
+- SPAリダイレクトURI: https://naruhito22-collab.github.io/desk-assistant/
+- 委任権限 Calendars.Read と利用者本人による同意を確認。組織全体への管理者同意は実施していない。
+- 操作用ブラウザでGraphから実際の当日予定が表示され、設定画面に「Outlookと同期しました」と表示された。
+- 利用者のWindows/Chromeは別のブラウザ環境。インストールしたアプリで初回サインインが必要。
+- Windows実機での自動起動・通知・再起動後の再接続は未検証。
